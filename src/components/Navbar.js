@@ -17,7 +17,7 @@ export default function Navbar() {
           <>
             <li class="btn">
               {" "}
-              <Link to="/login">Login</Link>{" "}
+              <Link to="/login">Log in</Link>{" "}
             </li>
             <li class="btn">
               {" "}
