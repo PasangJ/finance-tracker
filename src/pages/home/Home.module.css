@@ -15,7 +15,8 @@
   background: #1f9751;
   border-radius: 10px;
 }
-.sidebar input, .sidebar select {
+.sidebar input,
+.sidebar select {
   display: block;
   width: 100%;
   padding: 10px;
@@ -58,13 +59,13 @@
 .transactions li {
   margin: 30px auto;
   border: 1px solid #f2f2f2;
-  box-shadow: 3px 3px 5px rgba(50,50,50,0.1);
+  box-shadow: 3px 3px 5px rgba(50, 50, 50, 0.1);
   padding: 20px;
   display: flex;
   align-items: center;
   position: relative;
   overflow: hidden;
-  border-left: 4px solid #1f9751;
+  border-left: 4px solid #f6d55c;
 }
 .transactions .name {
   color: #777;
@@ -80,7 +81,7 @@
 .transactions button {
   position: absolute;
   top: 0;
-  right:0;
+  right: 0;
   background: #ddd;
   color: #777;
   border: none;
