@@ -17,7 +17,7 @@ export default function Signup() {
     <form onSubmit={handleSubmit} className={styles["signup-form"]}>
       <h2>Login</h2>
       <label>
-        <span>Email:</span>
+        <span>Email: </span>
         <input
           type="email"
           onChange={(e) => setEmail(e.target.value)}
