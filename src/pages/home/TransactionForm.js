@@ -45,7 +45,7 @@ export default function TransactionForm({ uid }) {
           />
         </label>
         <button class="btn" type="submit">
-          Add Transaction
+          Add transaction
         </button>
       </form>
     </>
